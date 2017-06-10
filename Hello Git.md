@@ -43,7 +43,7 @@
   - Index/Stage：暂存区，控制提交的颗粒度
   - Repository：仓库区（本地）
 
-  ![图片1](C:\Users\Administrator\Desktop\文\Note\图片1.png)
+  ![git1](https://github.com/jiangzeyinzi/Note/blob/master/image/git1.png)
 
 - 新建代码仓库
 
@@ -112,7 +112,7 @@
   - Repository：仓库区（本地）
   - Remote：远程仓库（GitHub）
 
-![图片2](C:\Users\Administrator\Desktop\文\Note\图片2.png)
+![git2](https://github.com/jiangzeyinzi/Note/blob/master/image/git1.png)
 
 - 同步远程仓库
 
