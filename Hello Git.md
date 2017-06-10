@@ -112,7 +112,7 @@
   - Repository：仓库区（本地）
   - Remote：远程仓库（GitHub）
 
-![git2](https://github.com/jiangzeyinzi/Note/blob/master/image/git1.png)
+![git2](https://github.com/jiangzeyinzi/Note/blob/master/image/git2.png)
 
 - 同步远程仓库
 
