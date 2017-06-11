@@ -40,10 +40,10 @@
 - 简介
 
   - Workspace：工作区
-  - Index/Stage：暂存区，控制提交的颗粒度
+  - Index/Staging Area：暂存区，控制提交的颗粒度
   - Repository：仓库区（本地）
 
-  ![git1](https://github.com/jiangzeyinzi/Note/blob/master/image/git1.png)
+  ![git1](images/git1.png)
 
 - 新建代码仓库
 
@@ -67,6 +67,8 @@
     `git add README.md`
 
     `git add .`
+
+    `git add '*.txt'`
 
   - 删除工作区文件，并且将这次删除放入暂存区
 
@@ -104,6 +106,10 @@
 
     `git log --oneline`
 
+    `git log --summary` 
+
+    按q键退出
+
 ## Git远程
 
 - 简介
@@ -112,7 +118,7 @@
   - Repository：仓库区（本地）
   - Remote：远程仓库（GitHub）
 
-![git2](https://github.com/jiangzeyinzi/Note/blob/master/image/git2.png)
+![git2](images/git2.png)
 
 - 同步远程仓库
 
