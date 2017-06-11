@@ -32,9 +32,9 @@
 
 *斜体*一个星号/下划线   
 
-**加粗两个星号 ** 
+**加粗两个星号** 
 
-***斜体加粗三个星号 *** 
+***斜体加粗三个星号*** 
 
 --删除线--   GFM
 
@@ -60,7 +60,7 @@
 
 <http://baidu.com>  
 
-### 内嵌式链接
+### 内嵌式链接（圆括号）
 
 - 外部链接
 
@@ -72,27 +72,36 @@
 
   - 仓库的其他部分
 
-    `[Hello Git][Hello Git.md]`
+    `[Hello Git](HelloGit.md)`
 
-    [Hello Git][Hello Git.md]
+    [Hello Git][HelloGit.md]
 
   - 本文档的其他部分
 
-    `[代码块](Hello MarkDown.md#代码块-demo)`
+    `[代码块](HelloMarkDown.md#代码块)`
 
-    [代码块](Hello MarkDown.md#代码块-demo)
+    [代码块](HelloMarkDown.md#代码块)
 
-### 引用式链接
+### 引用式链接（中括号）
 
-​	外部链接：[百度][baidu]、[百度首页]
+- 外部链接
 
-​	外部链接：[百度首页](baidu)
+  `[引用名] 或 [][引用名]`
 
-​	仓库的其他部分：[Hello Git](Hello Git)
+  - [百度]
+  - [百度首页][百度]
 
-​	本文档的其他部分：[代码块]
+- 内部链接
 
+  `[引用名] 或 [][引用名]`
 
+  - 仓库的其他部分
+
+    [Hello Gitttt][HelloGit]
+
+   -  内部链接本文档的其他部分：[代码块]
+
+      ​
 
 # 图片
 
@@ -112,22 +121,15 @@
 
 - 引用图片
 
-  `![MOU](MOU)`
+  `![MOUMOU][MOU]`
 
-  ![MOU](MOU)
+  ![MOU][MOU]
 
-  `![MarkDown](MarkDown)`
+  `![][MarkDown_img]`
 
-  ![MarkDown](MarkDown)
+  ![][MarkDown_img]
 
-<!-- 本文档引用的连接 -->
 
-[百度首页]: http://www.baidu.com
-[baidu]: http://www.baidu.com
-[Hello Git]: HelloGit.md
-[代码块]: HelloMarkDown.md#代码块-demo
-[MOU]: http://0.pic.pc6.com/thumb/up/2014-6/201462685932_128_128.jpg
-[MarkDown]: images/MarkDown.png
 
 
 
@@ -215,7 +217,7 @@ ___
 
  这 | 是 | 表 | 头 
 
- ---: | :---: | :---: | ---: 
+ ---: | :---: | :---: | ---
 
  1 | 2 | 3 | 4 
 
@@ -277,3 +279,13 @@ section 中期
 section 后期
 系统测试: 2016-11-26, 15d
 ```
+
+
+<!-- 本文档引用的链接 -->
+
+[百度]: http://www.baidu.com
+[baidu]: http://www.baidu.com
+[Hello Git]: HelloGit.md
+[代码块]: HelloMarkDown.md#代码块
+[MOU]: http://0.pic.pc6.com/thumb/up/2014-6/201462685932_128_128.jpg
+[MarkDown_img]: images/MarkDown.png
