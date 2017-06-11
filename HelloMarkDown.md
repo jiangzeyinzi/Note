@@ -72,15 +72,17 @@
 
   - 仓库的其他部分
 
-    `[Gitttt](Hello Git.md)`
+    `[Gitttt](HelloGit.md)`
 
-    [Gitttt](Hello Git.md)
+    [Gitttt](HelloGit.md)
 
   - 本文档的其他部分
 
-    `[代码块](HelloMarkDown.md# 代码块)`
+    `[代码块](HelloMarkDown.md#代码块)`
 
-    [代码块](HelloMarkDown.md# 代码块)
+    [代码块](HelloMarkDown.md#代码块)
+
+    [GFM](HelloMarkDown.md#GFM)
 
 ### 引用式链接（中括号）
 
@@ -99,7 +101,11 @@
 
     [Gitttt][Hello Git]
 
-   -  内部链接本文档的其他部分：[代码块]
+   -  内部链接本文档的其他部分
+
+      [代码块]
+
+      [GFM]
 
       ​
 
@@ -201,9 +207,9 @@ ___
 # 表格
 
 
-|         版本 |    修改内容    | 修改时间           |
-| ---------: | :--------: | :------------- |
-| v0.1111111 | 需求描述111111 | 2016-1-1111111 |
+|             版本 |      修改内容      | 修改时间              |
+| -------------: | :------------: | :---------------- |
+| v0.11111111111 | 需求描述1111111111 | 2016-1-1111111111 |
 
 
 
@@ -281,11 +287,24 @@ section 后期
 ```
 
 
+# 训练
+
+ - http://www.markdowntutorial.com/
+ - how-to-markdown
+    - 下载NodeJS
+       - `node -v`、`npm -v`
+    - `npm install how-to-markdown -g` 
+    -  运行`how-to-markdown`
+    - 检查`how-to-markdown verify file.md`
+
+
+
 <!-- 本文档引用的链接 -->
 
 [百度]: http://www.baidu.com
 [baidu]: http://www.baidu.com
 [Hello Git]: HelloGit.md
 [代码块]: HelloMarkDown.md#代码块
+[GFM]: HelloMarkDown.md#GFM
 [MOU]: http://0.pic.pc6.com/thumb/up/2014-6/201462685932_128_128.jpg
 [MarkDown_img]: images/MarkDown.png
