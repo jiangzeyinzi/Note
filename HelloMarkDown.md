@@ -80,9 +80,9 @@
 
     `[代码块](HelloMarkDown.md#代码块)`
 
-    [代码块](HelloMarkDown.md#代码块)
+    [代码块](HelloMarkDown.md#代码块-demo)
 
-    [GFM](HelloMarkDown.md#GFM)
+    [GFM](HelloMarkDown.md#gfm)
 
 ### 引用式链接（中括号）
 
@@ -304,7 +304,7 @@ section 后期
 [百度]: http://www.baidu.com
 [baidu]: http://www.baidu.com
 [Hello Git]: HelloGit.md
-[代码块]: HelloMarkDown.md#代码块
-[GFM]: HelloMarkDown.md#GFM
+[代码块]: HelloMarkDown.md#代码块-demo
+[GFM]: HelloMarkDown.md#gfm
 [MOU]: http://0.pic.pc6.com/thumb/up/2014-6/201462685932_128_128.jpg
 [MarkDown_img]: images/MarkDown.png
