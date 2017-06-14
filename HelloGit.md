@@ -20,9 +20,10 @@
 - 命令
   - cd (change directory)、mkdir (make directory)、pwd (print working directory)、ls -a
   - mv (move)可改名、cp (copy)、rm (remove)
+  - touch a 创建文件
   - echo 'asd' 打印、echo 'asd' > a.txt 存入
   - cat a.txt 显示
-  - .. 上级目录、~默认目录
+  - .. 上级目录、~默认目录、-上一次工作目录
   - clear (ctrl + l)、ctrl+c
   - '\' 用于命令换行
   - Vim操作
@@ -129,6 +130,10 @@
     `git remote add [shortname] [url]`
 
     `git remote add origin https://`
+
+    `git remote rm origin `
+
+    `git remote add origin git@github.com:username/test`
 
   - 将本地的提交推送到远程仓库
 
